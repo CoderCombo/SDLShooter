@@ -1,0 +1,126 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed/x86_64-linux-gnu",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed",
+						"/usr/local/include",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib",
+						"/lib",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/home/xlings/.xlings_data/bin/gcc",
+				"version" : "15.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/include/c++/15.1.0",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/include/c++/15.1.0/x86_64-pc-linux-gnu",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/include/c++/15.1.0/backward",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed/x86_64-linux-gnu",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed",
+						"/usr/local/include",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib/gcc",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/home/xlings/.xlings_data/xim/xpkgs/gcc/15.1.0/lib",
+						"/lib",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/xlings/.xlings_data/bin/g++",
+				"version" : "15.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

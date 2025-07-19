@@ -1,0 +1,1 @@
+/home/xlings/.xlings_data/bin/g++ -g CMakeFiles/SDLShooter.dir/main.cpp.o -o SDLShooter  -Wl,-Bstatic -lSDL2main -lSDL2 -Wl,-Bdynamic 
