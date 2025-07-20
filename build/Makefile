@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SDLShooter
+# Target rules for targets named SDLShooter_Linux
 
 # Build rule for target.
-SDLShooter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDLShooter
-.PHONY : SDLShooter
+SDLShooter_Linux: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDLShooter_Linux
+.PHONY : SDLShooter_Linux
 
 # fast build rule for target.
-SDLShooter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/build
-.PHONY : SDLShooter/fast
+SDLShooter_Linux/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/build
+.PHONY : SDLShooter_Linux/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SDLShooter"
+	@echo "... SDLShooter_Linux"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

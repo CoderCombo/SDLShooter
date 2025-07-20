@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/combo/code/SDLShooter/build",
-  "command": "/home/xlings/.xlings_data/bin/g++  -I/usr/include/SDL2 -g -o CMakeFiles/SDLShooter.dir/main.cpp.o -c /home/combo/code/SDLShooter/main.cpp",
+  "command": "/home/xlings/.xlings_data/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles/SDLShooter_Linux.dir/main.cpp.o -c /home/combo/code/SDLShooter/main.cpp",
   "file": "/home/combo/code/SDLShooter/main.cpp",
-  "output": "CMakeFiles/SDLShooter.dir/main.cpp.o"
+  "output": "CMakeFiles/SDLShooter_Linux.dir/main.cpp.o"
 }
 ]

@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "SDLShooter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDLShooter-Debug-8bbb380149b367903164.json",
-					"name" : "SDLShooter",
+					"id" : "SDLShooter_Linux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDLShooter_Linux-Debug-1a117eadc1d1c7c7f760.json",
+					"name" : "SDLShooter_Linux",
 					"projectIndex" : 0
 				}
 			]

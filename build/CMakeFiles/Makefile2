@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/combo/code/SDLShooter/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SDLShooter.dir/all
+all: CMakeFiles/SDLShooter_Linux.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SDLShooter.dir/clean
+clean: CMakeFiles/SDLShooter_Linux.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SDLShooter.dir
+# Target rules for target CMakeFiles/SDLShooter_Linux.dir
 
 # All Build rule for target.
-CMakeFiles/SDLShooter.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/combo/code/SDLShooter/build/CMakeFiles --progress-num=1,2 "Built target SDLShooter"
-.PHONY : CMakeFiles/SDLShooter.dir/all
+CMakeFiles/SDLShooter_Linux.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/combo/code/SDLShooter/build/CMakeFiles --progress-num=1,2 "Built target SDLShooter_Linux"
+.PHONY : CMakeFiles/SDLShooter_Linux.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SDLShooter.dir/rule: cmake_check_build_system
+CMakeFiles/SDLShooter_Linux.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/combo/code/SDLShooter/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SDLShooter.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SDLShooter_Linux.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/combo/code/SDLShooter/build/CMakeFiles 0
-.PHONY : CMakeFiles/SDLShooter.dir/rule
+.PHONY : CMakeFiles/SDLShooter_Linux.dir/rule
 
 # Convenience name for target.
-SDLShooter: CMakeFiles/SDLShooter.dir/rule
-.PHONY : SDLShooter
+SDLShooter_Linux: CMakeFiles/SDLShooter_Linux.dir/rule
+.PHONY : SDLShooter_Linux
 
 # clean rule for target.
-CMakeFiles/SDLShooter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter.dir/build.make CMakeFiles/SDLShooter.dir/clean
-.PHONY : CMakeFiles/SDLShooter.dir/clean
+CMakeFiles/SDLShooter_Linux.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLShooter_Linux.dir/build.make CMakeFiles/SDLShooter_Linux.dir/clean
+.PHONY : CMakeFiles/SDLShooter_Linux.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

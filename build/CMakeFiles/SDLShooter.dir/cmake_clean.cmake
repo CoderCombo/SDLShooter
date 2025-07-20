@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/combo/code/SDLShooter/SDLShooter"
+  "/home/combo/code/SDLShooter/SDLShooter.pdb"
   "CMakeFiles/SDLShooter.dir/main.cpp.o"
   "CMakeFiles/SDLShooter.dir/main.cpp.o.d"
-  "SDLShooter"
-  "SDLShooter.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
