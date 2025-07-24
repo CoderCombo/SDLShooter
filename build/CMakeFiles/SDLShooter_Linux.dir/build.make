@@ -92,7 +92,6 @@ SDLShooter_Linux_EXTERNAL_OBJECTS =
 
 /home/combo/code/SDLShooter/SDLShooter_Linux: CMakeFiles/SDLShooter_Linux.dir/main.cpp.o
 /home/combo/code/SDLShooter/SDLShooter_Linux: CMakeFiles/SDLShooter_Linux.dir/build.make
-/home/combo/code/SDLShooter/SDLShooter_Linux: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 /home/combo/code/SDLShooter/SDLShooter_Linux: /usr/lib/x86_64-linux-gnu/libSDL2.so
 /home/combo/code/SDLShooter/SDLShooter_Linux: CMakeFiles/SDLShooter_Linux.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/combo/code/SDLShooter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/combo/code/SDLShooter/SDLShooter_Linux"

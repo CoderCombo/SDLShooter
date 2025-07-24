@@ -1,1 +1,1 @@
-/home/xlings/.xlings_data/bin/g++ -g CMakeFiles/SDLShooter_Linux.dir/main.cpp.o -o /home/combo/code/SDLShooter/SDLShooter_Linux  /usr/lib/x86_64-linux-gnu/libSDL2main.a /usr/lib/x86_64-linux-gnu/libSDL2.so 
+/home/xlings/.xlings_data/bin/g++ -g CMakeFiles/SDLShooter_Linux.dir/main.cpp.o -o /home/combo/code/SDLShooter/SDLShooter_Linux  /usr/lib/x86_64-linux-gnu/libSDL2.so 

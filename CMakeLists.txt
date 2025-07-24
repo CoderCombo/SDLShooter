@@ -34,6 +34,11 @@ endif()
 add_executable(${TARGET} main.cpp)
 # 链接那几个库
 #target_link_libraries(SDLShooter SDL2::libSDL2main.a SDL2::libSDL2.a)
+#target_link_libraries(${TARGET} 
+#                      SDL2::SDL2main
+#                        SDL2::SDL2
+#                        ${SDL2_LIBRARIES}
+#                        )
 target_link_libraries(${TARGET} 
-                        SDL2::SDL2main
-                        SDL2::SDL2)
+                        ${SDL2_LIBRARIES}
+                        )
